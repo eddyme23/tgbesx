@@ -28,8 +28,8 @@ app.get('/api/admob-ssv', async (req, res) => {
         return res.status(400).send('Missing custom_data (user_id)');
     }
 
-    // 1 Ad = 120 minutes
-    const minutesToAdd = 120; 
+    // 1 Ad = 180 minutes
+    const minutesToAdd = 180; 
 
     try {
         // Find the user, or create them if they don't exist yet
