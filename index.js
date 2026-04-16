@@ -5,8 +5,8 @@ const app = express();
 const userDatabase = {}; 
 
 function mapRewardToMinutes(rewardAmount) {
-    // 1 ad view = 120 minutes (2 hours).
-    return 120; 
+    // 1 ad view = 180 minutes (3 hours).
+    return 180; 
 }
 
 // 1. ADMOB SSV CALLBACK ENDPOINT
